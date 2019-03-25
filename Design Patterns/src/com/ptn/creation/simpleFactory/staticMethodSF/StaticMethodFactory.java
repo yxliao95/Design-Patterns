@@ -1,9 +1,9 @@
-package com.ptn.creation.simpleFactory.multiStaticMethodSF;
+package com.ptn.creation.simpleFactory.staticMethodSF;
 
 import com.ptn.creation.simpleFactory.MailSender;
 import com.ptn.creation.simpleFactory.SmsSender;
 
-public class MultiStaticMethodFactory {
+public class StaticMethodFactory {
 
 	public static MailSender createMailSender() {
 		return new MailSender();
@@ -14,8 +14,8 @@ public class MultiStaticMethodFactory {
 	}
 
 	public static void main(String[] args) {
-		MultiStaticMethodFactory.createMailSender().send();
-		MultiStaticMethodFactory.createSmsSender().send();
+		StaticMethodFactory.createMailSender().send();
+		StaticMethodFactory.createSmsSender().send();
 	}
 
 }
