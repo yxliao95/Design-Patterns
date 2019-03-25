@@ -1,9 +1,9 @@
-package com.ptn.creation.simpleFactory.nomalSF;
+package com.ptn.creation.simpleFactory.factory;
 
 import com.exception.SenderNotFoundException;
-import com.ptn.creation.simpleFactory.MailSender;
-import com.ptn.creation.simpleFactory.Sender;
-import com.ptn.creation.simpleFactory.SmsSender;
+import com.ptn.creation.simpleFactory.product.MailSender;
+import com.ptn.creation.simpleFactory.product.Sender;
+import com.ptn.creation.simpleFactory.product.SmsSender;
 
 public class SenderFactory {
 

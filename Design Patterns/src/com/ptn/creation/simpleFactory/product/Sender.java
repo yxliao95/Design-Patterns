@@ -1,4 +1,4 @@
-package com.ptn.creation.simpleFactory;
+package com.ptn.creation.simpleFactory.product;
 
 /**   
  * @Description:拥有发送功能的接口

@@ -1,7 +1,7 @@
-package com.ptn.creation.simpleFactory.multiMethodSF;
+package com.ptn.creation.simpleFactory.factory;
 
-import com.ptn.creation.simpleFactory.MailSender;
-import com.ptn.creation.simpleFactory.SmsSender;
+import com.ptn.creation.simpleFactory.product.MailSender;
+import com.ptn.creation.simpleFactory.product.SmsSender;
 
 public class MultiMethodFactory {
 	public MailSender createMailSender() {

@@ -1,4 +1,4 @@
-package com.ptn.creation.simpleFactory;
+package com.ptn.creation.simpleFactory.product;
 
 public class MailSender implements Sender {
 
