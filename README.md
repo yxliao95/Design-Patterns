@@ -5,3 +5,4 @@ Creation Pattern:
 0.Simple Factory Pattern  
 1.Factory Method Pattern  
 2.Abstract Factory Pattern  
+3.Singleton Pattern
