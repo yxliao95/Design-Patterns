@@ -1,4 +1,4 @@
-package com.ptn.creation.prototype.shallowCloning;
+package com.ptn.creation.prototype5.shallowCloning;
 
 import java.util.Date;
 

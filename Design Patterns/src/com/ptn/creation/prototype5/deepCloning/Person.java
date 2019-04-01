@@ -1,4 +1,4 @@
-package com.ptn.creation.prototype.deepCloning;
+package com.ptn.creation.prototype5.deepCloning;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
