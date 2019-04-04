@@ -8,3 +8,4 @@ Creation Pattern:
 3.Singleton Pattern  
 4.Builder Pattern  
 5.Prototype Pattern  
+6.Adapter Pattern  
