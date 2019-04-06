@@ -9,3 +9,5 @@ Creation Pattern:
 4.Builder Pattern  
 5.Prototype Pattern  
 6.Adapter Pattern  
+7.Decorator Pattern  
+8.Proxy Pattern  
