@@ -11,4 +11,5 @@ Creation Pattern:
 6.Adapter Pattern  
 7.Decorator Pattern  
 8.Proxy Pattern  
-9.Facade Pattern
+9.Facade Pattern  
+10.Bridge Pattern
