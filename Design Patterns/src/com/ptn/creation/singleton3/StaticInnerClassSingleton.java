@@ -7,7 +7,7 @@ public class StaticInnerClassSingleton {
 	}
 
 	private static class InnerClass {
-		static StaticInnerClassSingleton singleton = new StaticInnerClassSingleton();
+		private static final StaticInnerClassSingleton singleton = new StaticInnerClassSingleton();
 	}
 
 	public static StaticInnerClassSingleton getInstance() {
