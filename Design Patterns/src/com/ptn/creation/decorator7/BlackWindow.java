@@ -1,4 +1,4 @@
-package com.ptn.creation.Decorator7;
+package com.ptn.creation.decorator7;
 
 
 public class BlackWindow implements IWindow {
