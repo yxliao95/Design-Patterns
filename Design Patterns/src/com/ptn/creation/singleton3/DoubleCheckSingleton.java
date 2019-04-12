@@ -2,14 +2,14 @@ package com.ptn.creation.singleton3;
 
 public class DoubleCheckSingleton {
 
-	private volatile DoubleCheckSingleton singleton;
+	private static volatile DoubleCheckSingleton singleton;
 
 	private DoubleCheckSingleton() {
 	}
 
-	public DoubleCheckSingleton getInstance() {
+	public static DoubleCheckSingleton getInstance() {
 		if (singleton == null) {
-			synchronized (this) {
+			synchronized (singleton) {
 				if (singleton == null) {
 					singleton = new DoubleCheckSingleton();
 				}

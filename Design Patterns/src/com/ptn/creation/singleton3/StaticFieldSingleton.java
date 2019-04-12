@@ -7,7 +7,7 @@ public class StaticFieldSingleton {
 	private StaticFieldSingleton() {
 	}
 
-	public StaticFieldSingleton getInstance() {
+	public static StaticFieldSingleton getInstance() {
 		return singleton;
 	}
 }
