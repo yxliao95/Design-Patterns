@@ -15,3 +15,5 @@ Creation Pattern:
 10.Bridge Pattern  
 11.Composit Patten  
 12.Flyweight Patten  
+13.Strategy Pattern  
+14.Template Method Pattern
