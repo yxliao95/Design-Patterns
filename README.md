@@ -17,4 +17,9 @@ Creation Pattern:
 12.Flyweight Patten  
 13.Strategy Pattern  
 14.Template Method Pattern  
-15.Observer Pattern
+15.Observer Pattern  
+16.Iterator Pattern  
+17.Chain of Responsibility Pattern  
+18.Command Pattern  
+19.Memento Pattern  
+20.State Pattern  
