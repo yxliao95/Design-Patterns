@@ -1,31 +1,29 @@
 package com.ptn.creation._22mediator;
 
-import java.util.List;
-
 public class ConcreteMediator implements Mediator {
 
-	private ConcreteColleagueA colleagueA;
-	private ConcreteColleagueB colleagueB;
+	private ConcreteCustomerA colleagueA;
+	private ConcreteCustomerB colleagueB;
 
-	public ConcreteColleagueA getColleagueA() {
+	public ConcreteCustomerA getColleagueA() {
 		return colleagueA;
 	}
 
-	public void setColleagueA(ConcreteColleagueA colleagueA) {
+	public void setColleagueA(ConcreteCustomerA colleagueA) {
 		this.colleagueA = colleagueA;
 	}
 
-	public ConcreteColleagueB getColleagueB() {
+	public ConcreteCustomerB getColleagueB() {
 		return colleagueB;
 	}
 
-	public void setColleagueB(ConcreteColleagueB colleagueB) {
+	public void setColleagueB(ConcreteCustomerB colleagueB) {
 		this.colleagueB = colleagueB;
 	}
 
 	@Override
-	public void contact(String msg, Colleague colleague) {
-		if (colleague instanceof ConcreteColleagueA) {
+	public void contact(String msg, Customer colleague) {
+		if (colleague instanceof ConcreteCustomerA) {
 			colleagueB.receive(msg);
 		} else {
 			colleagueA.receive(msg);

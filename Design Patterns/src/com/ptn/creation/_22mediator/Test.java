@@ -3,8 +3,8 @@ package com.ptn.creation._22mediator;
 public class Test {
 	public static void main(String[] args) {
 		ConcreteMediator mediator = new ConcreteMediator();
-		ConcreteColleagueA a = new ConcreteColleagueA();
-		ConcreteColleagueB b = new ConcreteColleagueB();
+		ConcreteCustomerA a = new ConcreteCustomerA();
+		ConcreteCustomerB b = new ConcreteCustomerB();
 		a.setMediator(mediator);
 		b.setMediator(mediator);
 		mediator.setColleagueA(a);

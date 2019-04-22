@@ -1,6 +1,6 @@
 package com.ptn.creation._22mediator;
 
-public class ConcreteColleagueB extends Colleague {
+public class ConcreteCustomerB extends Customer {
 
 	@Override
 	public void send(String msg) {

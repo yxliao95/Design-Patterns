@@ -1,6 +1,6 @@
 package com.ptn.creation._22mediator;
 
-public abstract class Colleague {
+public abstract class Customer {
 
 	protected Mediator mediator;
 
