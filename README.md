@@ -9,7 +9,7 @@ __Creational Pattern__
 4.Builder Pattern  
 5.Prototype Pattern  
   
-__Structural Pattern__
+__Structural Pattern__  
 6.Adapter Pattern  
 7.Decorator Pattern  
 8.Proxy Pattern  
