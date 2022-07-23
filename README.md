@@ -1,5 +1,5 @@
 # Design-Patterns
-instance of 23 design patterns which can be devided into 3 different type include Creational, Structural and Behavioral  
+Instance of 23 design patterns which can be devided into 3 different type include Creational, Structural and Behavioral  
 
 __Creational Pattern__  
 0.Simple Factory Pattern  
